@@ -3,7 +3,7 @@ library(showtext)
 ## Loading Google fonts (http://www.google.com/fonts)
 font_add_google("Press Start 2P", "pixel")
 
-main_img <- "TextMining.png"
+main_img <- "../Images/TextMining.png"
 sticker(main_img, 
         package="FL POLY: \n Data  \n & Text Mining", 
         p_size=3, p_y = 1.35, p_x = 1, p_family = "pixel", p_color  = "#4d0066",

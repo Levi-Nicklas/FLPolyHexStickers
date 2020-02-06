@@ -3,7 +3,7 @@ library(showtext)
 ## Loading Google fonts (http://www.google.com/fonts)
 font_add_google("Smokum", "west")
 
-main_img <- "Wrangling.jpg"
+main_img <- "../Images/Wrangling.jpg"
 sticker(main_img, 
         package="FL Poly: \n Data Wrangling & EDA", 
         p_size=5, p_y = 1.35, p_x = 1, p_family = "west", p_color  = "#4d0066",

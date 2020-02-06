@@ -3,7 +3,7 @@ library(showtext)
 ## Loading Google fonts (http://www.google.com/fonts)
 font_add_google("nunito", "neat")
 
-main_img <- "FL_poly.jpg"
+main_img <- "../Images/FL_poly.jpg"
 sticker(main_img, 
         package="R - FL Poly", 
         p_size=6, p_y = 0.55, p_x = 1, p_family = "neat", p_color  = "#600080",
